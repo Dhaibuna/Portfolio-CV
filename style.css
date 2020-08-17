@@ -173,36 +173,36 @@ a{
   grid-column: 2/5;
   font-family: 'Inconsolata', monospace;
   font-weight: normal;
-  font-size: 79pt;
   color: #0029E0;
+  font-size: 79pt;
 }
 
 #about_introduction{
-  grid-column: 2/13;
-  background-color: blue;
+  grid-column: 1/13;
   margin-top:150px;
-  display: flex;
-
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 
 #about_introduction img{
+  grid-column: 2/6;
   width: 296px;
   height: 320px;
-  padding-left: 130px;
 }
 
-#personnal{
-  width: 50%;
+#biography{
+  grid-column: 7/13;
   display: flex;
   flex-flow: column nowrap;
+  justify-content: space-between;
 }
 
-#personnal h4{
+#biography h4{
   color: #FFEBF0;
   font-size: 27.5pt;
 }
 
-#personnal p{
+#biography p{
   color: #FFEBF0;
   font-size: 15pt;
   text-align: justify;
@@ -211,7 +211,7 @@ a{
 }
 
 
-span.pink_title{
+span.pink_text{
   font-family: 'Inconsolata', monospace;
   color:#FF1F57;
   font-weight: bold;
@@ -219,58 +219,61 @@ span.pink_title{
   font-size: 20pt;
 }
 
-#educational_background{
-  width: 50%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  padding-left: 150px;
+#backgrounds{
+  grid-column: 1/13;
+  margin-top:100px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 
-#educational_background p{
+#education{
+  grid-column: 2/6;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#education p{
   font-size: 15pt;
+  margin-top: 20px;
 }
 
 .bold{
   font-weight: bold ;
 }
 
-#about_background_xp{
-  display: flex;
-  margin-top:15px;
-}
-
 #xp{
-  width: 50%;
+  grid-column: 7/13;
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
-  padding-right: 150px;
-
+  justify-content: space-between;
 }
+
 #xp img{
   width: 225.01px;
   height: 221.52px;
-  position: relative;
-  top: 70px;
+  padding-left: 100px;
 }
 
-#xp_circle{
-font-size: 15pt;
-font-weight: bold;
-position: relative;
-bottom: 95px;
 
+h5{
+font-size: 15pt;
+font-weight: 600;
+color: #FFEBF0;
+position: relative;
+bottom: 125px;
+left: 200px;
 }
 
 #xp p{
 text-align: justify;
 font-size: 15pt;
+padding-right: 150px;
 padding-top: 40px;
 }
 
 
-#xp .green_title{
+#xp .green_link{
+  font-size: 15pt;
   font-weight: bold;
   text-transform: uppercase;
   color : #07ED7A;

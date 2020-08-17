@@ -7,42 +7,46 @@ body{
   font-family: 'Inconsolata', monospace;
   font-family: 'Roboto', sans-serif;
   background-color: #010628;
-  grid-template-columns: repeat(12,1fr);
-
+  margin-top: 94px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
+
 
 p{
   color:#FFEBF0;
 }
+
 /* Header */
 
 header{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  margin-top: 50px;
+grid-column: 1/13;
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+
 }
 
 img#logo{
-  width: 127.5px;
-  height: 70.5px;
-  padding-left: 150px;
+  width: 169.9px;
+  height: 94.06px;
+  grid-column: 2/4;
 }
 
+
 nav{
-  width: 70%;
+grid-column: 5/12 ;
 }
 
 
 ul{
   font-family: 'Inconsolata', monospace;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 25pt;
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
-
+  justify-content: space-between;
 }
+
 
 a:link{
   color: #FFEBF0;
@@ -63,13 +67,13 @@ a:hover{
 
 /* Section 1 */
 
+
 #home_page{
-  margin-top: 20px;
-  height:650px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: flex-start;
+  grid-column: 1/13;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
 }
 
 
@@ -80,11 +84,12 @@ h1{
 }
 
 #home_page_title{
-display: flex ;
-flex-flow: column nowrap;
-margin-left: 190px;
-margin-top: 50px;
-line-height: 100px;
+  grid-column: 2/8;
+  line-height: 100px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 h1:first-of-type{
@@ -104,7 +109,7 @@ span#pink_name{
 }
 
 /* Section 2 */
-
+/*
 #portfolio h3{
   font-family: 'Inconsolata', monospace;
   font-weight: normal;
@@ -145,7 +150,7 @@ span#pink_name{
 }
 
 /* Section 3 */
-
+/*
 #about h3{
   font-family: 'Inconsolata', monospace;
   font-weight: normal;
@@ -257,7 +262,7 @@ padding-top: 40px;
 }
 
 /* Section 4 */
-
+/*
 #skills h3{
   font-family: 'Inconsolata', monospace;
   font-weight: normal;
@@ -331,7 +336,7 @@ left: 400px;
 }
 
 */
-
+/*
 #skills img{
 width: 90%;
 }
@@ -349,7 +354,7 @@ width: 90%;
 }
 
 /* Section 5 : Contact */
-
+/*
 #contact h3{
   font-family: 'Inconsolata', monospace;
   font-weight: normal;

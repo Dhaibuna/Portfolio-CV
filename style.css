@@ -109,8 +109,15 @@ span#pink_name{
 }
 
 /* Section 2 */
-/*
-#portfolio h3{
+
+#portfolio_page{
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#portfolio_page h3{
+  grid-column: 8/12;
   font-family: 'Inconsolata', monospace;
   font-weight: normal;
   font-size: 79pt;
@@ -118,24 +125,24 @@ span#pink_name{
   display: flex;
   justify-content: flex-end;
   margin-top: 100px;
-  padding-right: 190px;
 }
 
 #portfolio_project_one{
-  display : flex;
-  justify-content: center;
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
   margin-top: 150px;
   font-size: 20pt;
 }
 
 #portfolio_text{
+  grid-column: 2/9;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-right: 30px;
 }
 
-#portfolio_text .green_title{
+#portfolio_text .green_text{
   font-family: 'Inconsolata', monospace;
   font-size: 25pt;
   font-weight: bold;
@@ -144,9 +151,9 @@ span#pink_name{
 }
 
 #tfog{
+  grid-column: 9/12;
   width: 329px;
   height: 327px;
-  padding-left: 25px;
 }
 
 /* Section 3 */

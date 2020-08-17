@@ -92,7 +92,8 @@ h1:first-of-type{
 }
 
 h1:last-of-type{
-font-size: 35pt;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35pt;
 }
 
 span#pink_name{
@@ -130,6 +131,7 @@ span#pink_name{
 }
 
 #portfolio_text .green_title{
+  font-family: 'Inconsolata', monospace;
   font-size: 25pt;
   font-weight: bold;
   text-transform: uppercase;
@@ -190,6 +192,7 @@ span#pink_name{
 
 
 span.pink_title{
+  font-family: 'Inconsolata', monospace;
   color:#FF1F57;
   font-weight: bold;
   text-decoration-line: underline;
@@ -380,11 +383,13 @@ width: 90%;
 }
 
 #text_contact .green_title{
+  font-family: 'Inconsolata', monospace;
   font-weight: bold;
   color : #07ED7A;
 }
 
 #text_contact .pink_name{
+  font-family: 'Inconsolata', monospace;
   font-weight: bold;
   color:#FF1F57;
 }

@@ -343,8 +343,8 @@ padding-top: 40px;
 
 #soft_two{
   margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 
 #soft_two img:nth-of-type(1){
@@ -381,8 +381,73 @@ padding-top: 40px;
   top: 75px;
 }
 
-    /* Languages */
+/* Languages */
 
+#languages{
+  margin-top:150px;
+  grid-column:1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr)
+}
+
+#languages_leftSide{
+  padding-top:110px;
+  grid-column: 2/5;
+}
+
+#languages_leftSide p:first-of-type{
+  font-size: 23pt;
+  position: relative;
+  left: 65px;
+  bottom: 150px;
+}
+
+#languages_rightSide{
+  grid-column : 5/13;
+}
+
+#languages_rightSide #languages_one{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+#languages_rightSide #languages_one p:first-of-type{
+  position: relative;
+  right: 120px;
+  top: 60px;
+}
+
+#languages_rightSide #languages_one p:nth-of-type(2){
+  position: relative;
+  right: 120px;
+  top: 60px;
+}
+
+#languages_rightSide #languages_one p:last-of-type{
+  position: relative;
+  right: 120px;
+  top: 60px;
+}
+
+#languages_rightSide #languages_two{
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  }
+
+#languages_rightSide #languages_two p:first-of-type{
+  position: relative;
+  right: 120px;
+  top: 60px;
+}
+
+#languages_rightSide #languages_two p:last-of-type{
+  position: relative;
+  right: 120px;
+  top: 60px;
+}
 /* Section 5 : Contact */
 /*
 #contact h3{

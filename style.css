@@ -150,34 +150,42 @@ span#pink_name{
   color : #07ED7A;
 }
 
-#tfog{
+#portfolio_project_one img{
+  width: 329px;
+  height: 327px;
+}
+
+a{
   grid-column: 9/12;
   width: 329px;
   height: 327px;
 }
 
 /* Section 3 */
-/*
-#about h3{
+
+#about_page{
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top:100px;
+}
+#about_page h3{
+  grid-column: 2/5;
   font-family: 'Inconsolata', monospace;
   font-weight: normal;
   font-size: 79pt;
   color: #0029E0;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 150px;
-  padding-left: 190px;
 }
 
-
-#about_presentation{
-  margin-top:100px;
+#about_introduction{
+  grid-column: 2/13;
+  background-color: blue;
+  margin-top:150px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+
 }
 
-#about_presentation img{
+#about_introduction img{
   width: 296px;
   height: 320px;
   padding-left: 130px;

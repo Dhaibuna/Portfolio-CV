@@ -10,6 +10,7 @@ body{
   margin-top: 94px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  overflow-x :hidden; /* Pour éviter le scroll horizontal */
 }
 
 
@@ -387,7 +388,12 @@ padding-top: 40px;
   margin-top:150px;
   grid-column:1/13;
   display: grid;
-  grid-template-columns: repeat(12, 1fr)
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.under_languages_circles{
+  width: 200px;
+  height: 271.97px;
 }
 
 #languages_leftSide{
@@ -409,45 +415,28 @@ padding-top: 40px;
 #languages_rightSide #languages_one{
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
-#languages_rightSide #languages_one p:first-of-type{
+.languages_name{
   position: relative;
   right: 120px;
-  top: 60px;
+  top: 75px;
 }
 
-#languages_rightSide #languages_one p:nth-of-type(2){
+.languages_level{
   position: relative;
-  right: 120px;
-  top: 60px;
-}
-
-#languages_rightSide #languages_one p:last-of-type{
-  position: relative;
-  right: 120px;
-  top: 60px;
+  right: 150px;
+  top: 180px;
 }
 
 #languages_rightSide #languages_two{
   margin-top: 50px;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   }
 
-#languages_rightSide #languages_two p:first-of-type{
-  position: relative;
-  right: 120px;
-  top: 60px;
-}
-
-#languages_rightSide #languages_two p:last-of-type{
-  position: relative;
-  right: 120px;
-  top: 60px;
-}
 /* Section 5 : Contact */
 /*
 #contact h3{

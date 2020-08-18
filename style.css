@@ -590,6 +590,7 @@ input[type=submit]{
   font-weight: bold;
   border: none;
   border-radius: 2%;
-  margin-top: 20px
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 

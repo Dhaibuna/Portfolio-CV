@@ -596,8 +596,8 @@ input[type=submit]{
 /* Animations */
 
 canvas#tetris{
-  z-index: -1000;
-  position:absolute;
+  z-index: -1000; /* Pour le placer tout en dessous des éléments */
+  position:absolute; /*sortir le bloc du flow de la page */
   top:0;
 	right:0;
   width:45%;

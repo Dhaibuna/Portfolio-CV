@@ -64,6 +64,7 @@ a:active{
 
 a:hover{
   color: #FFEBF0;
+  cursor: crosshair;
 }
 
 /* Section 1 */
@@ -74,7 +75,6 @@ a:hover{
   height: 600px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-
 }
 
 
@@ -109,6 +109,24 @@ span#pink_name{
   font-size: 70pt;
 }
 
+#call_to_portfolio{
+  grid-column: 9/12
+}
+
+#portfolio_link{
+  height: 100px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 25pt;
+  color : #010628;
+  background-color:#07ED7A ;
+  font-weight: bold;
+  text-transform: uppercase;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor: crosshair;
+  margin-top: 270px;
+}
 /* Section 2 */
 
 #portfolio_page{
@@ -583,7 +601,7 @@ textarea{
 input[type=submit]{
   width:50% ;
   height:30px;
-  cursor: pointer;
+  cursor: crosshair;
   background-color: #07ED7A;
   color:#010628;
   font-weight: bold;
@@ -595,10 +613,3 @@ input[type=submit]{
 
 /* Animations */
 
-canvas#tetris{
-  z-index: -1000; /* Pour le placer tout en dessous des éléments */
-  position:absolute; /*sortir le bloc du flow de la page */
-  bottom: 5px;
-  right:5px;
-  background-color: cyan;
-}

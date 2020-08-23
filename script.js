@@ -1,5 +1,9 @@
 
-let canvas = document.getElementById("tetris");
+// Landing page in construction, pls wait
+
+
+
+let canvas = document.getElementById("tetris")
 let ctx = canvas.getContext("2d");
 
 // pink square

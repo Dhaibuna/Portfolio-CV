@@ -544,6 +544,11 @@ padding-top: 40px;
   flex-flow: column wrap;
 }
 
+a:hover img{
+  color: #07ED7A;
+  cursor: crosshair;
+}
+
 #contact_rightSide{
   grid-column: 7/12;
   color: #FFEBF0;

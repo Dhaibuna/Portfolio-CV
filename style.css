@@ -49,20 +49,20 @@ ul{
 }
 
 
-a:link{
+li a:link{
   color: #FFEBF0;
   text-decoration:none;
 }
 
-a:visited {
+li a:visited{
   color: #FFEBF0;
 }
 
-a:active{
+li a:active{
   color: #FFEBF0;
 }
 
-a:hover{
+li a:hover{
   color: #FFEBF0;
   cursor: crosshair;
 }
@@ -174,12 +174,6 @@ span#pink_name{
   height: 327px;
 }
 
-a{
-  grid-column: 9/12;
-  width: 329px;
-  height: 327px;
-}
-
 /* Section 3 */
 
 #about_page{
@@ -217,7 +211,7 @@ a{
 }
 
 #biography h4{
-  color: #FFEBF0;
+  color: #FF1F57;
   font-size: 27.5pt;
 }
 
@@ -260,6 +254,25 @@ span.pink_text{
   font-weight: bold ;
 }
 
+#education a:link{
+    color: #07ED7A;
+    text-decoration:none;
+  }
+
+#education a:visited{
+    color: #07ED7A;
+  }
+
+#education a:active{
+    color: #07ED7A;
+  }
+
+#education a:hover{
+    color: #07ED7A;
+    cursor: crosshair;
+  }
+
+
 #xp{
   grid-column: 7/13;
   display: flex;
@@ -290,14 +303,23 @@ padding-right: 150px;
 padding-top: 40px;
 }
 
-
-#xp .green_link{
-  font-size: 15pt;
-  font-weight: bold;
-  text-transform: uppercase;
-  color : #07ED7A;
+#xp a:link{
+  color: #07ED7A;
+  text-decoration:none;
 }
 
+#xp a:visited{
+  color: #07ED7A;
+}
+
+#xp a:active{
+  color: #07ED7A;
+}
+
+#xp a:hover{
+  color: #07ED7A;
+  cursor: crosshair;
+}
 /* Section 4 */
 
 #skills_page{

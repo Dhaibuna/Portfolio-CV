@@ -3,6 +3,14 @@
   /*font-family: 'Roboto', sans-serif!important;*/
 }
 
+h1{
+font-size:5rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
 /* BASIC COLORS  */
 
 .bg-dark{
@@ -13,20 +21,28 @@ background-color: #010628!important;
 color: #FFEBF0!important;
 }
 
+code{
+  color : #FF1F57;
+}
 /* NAVIGATION */
 
 img{
-margin-left : 2.5rem;
-margin-top : 1rem;
+margin-left : 4.5rem;
+margin-top : 1.5rem;
 }
 
 .navbar-nav{
-  font-size: 30px;
-  margin-left : 40rem ;
+  font-size: 40px;
+  margin-left : 20rem ;
   }
 .nav-item{
-  margin-left: 7rem!important;
-  margin-top : 1rem;
+  margin-left: 8rem!important;
+  margin-top : 1.5rem;
 }
 
 /* SECTION 1 */
+
+.presentation{
+  margin-left : 4rem;
+  margin-top : 25rem;
+}

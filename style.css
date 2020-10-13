@@ -1,17 +1,28 @@
 .container-fluid{
-
+  font-family: 'Inconsolata', monospace!important;
+  /*font-family: 'Roboto', sans-serif!important;*/
 }
 
+/* BASIC COLORS  */
 
 .bg-dark{
 background-color: #010628!important;
 }
 
-.nav-item{
-  margin-left: 7rem!important;
+/* NAVIGATION */
 
+img{
+margin-left : 2.5rem;
+margin-top : 1rem;
 }
 
 .navbar-nav{
-margin-left : 50rem ;
+  font-size: 30px;
+  margin-left : 40rem ;
+  }
+.nav-item{
+  margin-left: 7rem!important;
+  margin-top : 1rem;
 }
+
+/* SECTION 1 */

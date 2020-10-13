@@ -1,3 +1,17 @@
 .container-fluid{
-background-color: #010628;
+
+}
+
+
+.bg-dark{
+background-color: #010628!important;
+}
+
+.nav-item{
+  margin-left: 7rem!important;
+
+}
+
+.navbar-nav{
+margin-left : 50rem ;
 }

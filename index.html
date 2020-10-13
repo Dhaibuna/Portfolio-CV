@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css" />
+
   <link
     href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;577;700&family=Roboto:wght@300;400&display=swap"
     rel="stylesheet">
@@ -18,17 +18,40 @@
     crossorigin="anonymous"></script>
   <!-- Code Bootstrap -->
 
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
   <title>Portfolio</title>
 </head>
 
 <body>
   <!--Header which includes the logo on the left and the nav on the right-->
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-sm bg-dark">
-      <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-sm bg-dark fixed-top">
+      <a class="navbar-brand" href="">
         <img src="img/logo.png" alt="logo personnel" />
-        <ul class="navbar-nav">
-        </ul>
+      </a>
+
+
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio_title">Portfolio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about_title">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#skills_title">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact_title">Contact</a>
+        </li>
+
+      </ul>
+
     </nav>
   </div>
   <!--Header which includes the logo on the left and the nav on the right
@@ -37,12 +60,9 @@
 
 
 
-        <li><a href="#portfolio_title">Portfolio</a></li>
-        <li><a href="#about_title">About</a></li>
-        <li><a href="#skills_title">Skills</a></li>
-        <li><a href="#contact_title">Contact</a></li>
-      </ul>
--->
+
+
+
 
   <!-- Bootstrap CDN -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

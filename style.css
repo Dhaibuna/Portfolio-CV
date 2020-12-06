@@ -40,11 +40,18 @@ margin-top : 1.5rem;
   margin-top : 1.5rem;
 }
 
+.nav-link{
+color: #FFEBF0!important; 
+}
+
+.nav-link:hover{
+  color : #07ED7A!important;
+}
 /* SECTION 1 */
 
 .presentation{
   margin-left : 4rem;
-  margin-top : 25rem;
+  margin-top : 13.9rem;
 }
 
 .animation{
